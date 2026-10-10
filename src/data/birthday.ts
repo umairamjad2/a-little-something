@@ -546,6 +546,38 @@ export const birthdayContent = {
     },
   },
 
+  connectedToYou: {
+    eyebrow: "Deep In My Heart ✦",
+    heading: "My Happiness Is Connected to You, Miss ❤️🥹",
+    subheading:
+      "Miss, honestly, my mood depends on you more than you realize. When you smile, my entire world becomes brighter.",
+    paragraphs: [
+      "Miss, honestly, my mood depends on you more than you realize. When you smile, start talking in your cute, childish way, and feel comfortable around me, OMG, I can't explain how happy I feel. Sometimes I just wish I could hug you, sit near your feet, look into your beautiful eyes, hold both your hands, and talk to you about everything deep inside our hearts. 🥹❤️ These are just little dreams in my heart, and the rest is written in our naseeb.",
+      "Miss, I know I keep saying, “Chalte hain, kahin miss,” and maybe sometimes I really do annoy you. Please forgive my silly moments. 😭❤️",
+      "I know I've made mistakes, and I know I've hurt you in some ways. I can't go back into the past and change what happened, no matter how much I wish I could. But, Miss, I'm genuinely sorry. I never want to dismiss your pain or make excuses for my mistakes. I can only accept them, learn from them, and try to become a better person.",
+      "I don't expect you to forget everything just because I said sorry. I just want you to know that my apology comes from my heart. Your feelings matter to me, and I want my actions to show you that I'm learning.",
+    ],
+    highlightQuote:
+      "Miss, I can't change that past, but I truly want to do better from now on. I care about you so much, and I pray that life always gives you reasons to smile. ❤️🫂🧿",
+    signature: "Yours always, Umair ❤️",
+  },
+
+  oneMoreThing: {
+    eyebrow: "A Little Apology & A Promise ✦",
+    heading: "One More Thing, Miss ❤️🥹",
+    subheading:
+      "From my heart — with all my honesty, humility, and endless love.",
+    paragraphs: [
+      "Dear Miss, I know sometimes I can be irritating, childish, or annoying, and maybe I do things without realizing how they make you feel. I'm really sorry for those moments. ❤️ I never want to hurt you intentionally or become a reason for your sadness.",
+      "If I ever do something you don't like, say something that hurts you, or make you uncomfortable in any way, please tell me. I genuinely want to understand you and learn from my mistakes because your feelings matter to me. 🫶🏻",
+      "I'm not perfect, dear, and I know I still have a lot to learn, but I promise to keep trying to become a better person. So, advance mein sorry for any future mistakes. 😭❤️ Please don't ever think that I would intentionally want to hurt you.",
+      "You mean so much to me, and the last thing I would ever want is to see you upset because of me. I want to be someone who makes you smile, feel comfortable, and be yourself without hesitation.",
+    ],
+    highlightQuote:
+      "Miss. Please bear with my little silly moments while I keep learning how to be better for myself and for you. ❤️🫂🧿",
+    signature: "Always trying to be better for you, Umair 🤍",
+  },
+
   ending: {
     heading: "Happy Birthday, My Chatpatti. ❤️",
     message:

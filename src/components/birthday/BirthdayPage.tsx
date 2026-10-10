@@ -6,6 +6,8 @@ import type { FloatingItem } from "@/data/birthday";
 import { triggerRomanticConfetti } from "./BirthdayReveal/Confetti";
 import { BirthdayReveal } from "./BirthdayReveal/BirthdayReveal";
 import { FinalSurprise } from "./Final/FinalSurprise";
+import { ConnectedToYou } from "./ConnectedToYou";
+import { OneMoreThing } from "./OneMoreThing";
 import { LoveLetter } from "./Letter/LoveLetter";
 import { MemoriesSection } from "./Memories/MemoriesSection";
 import { OpeningSection } from "./Opening/OpeningSection";
@@ -85,6 +87,8 @@ export function BirthdayPage() {
       <ChooseYourGift />
       <HiddenMessage />
       <FinalSurprise />
+      <ConnectedToYou />
+      <OneMoreThing />
       <ClosingEnding />
     </div>
   );
