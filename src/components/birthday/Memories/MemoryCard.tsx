@@ -31,14 +31,12 @@ export function MemoryCard({ memory, index }: { memory: Memory; index: number })
       ref={cardRef}
       className="relative flex w-full items-center justify-center px-4 sm:px-8 py-14 sm:py-20"
     >
-      {/* Per-card ambient glow */}
-      <motion.div
-        animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-        transition={{ duration: 1.4 }}
+      {/* Per-card ambient glow (hardware accelerated) */}
+      <div
         className="pointer-events-none absolute inset-0 flex items-center justify-center"
       >
-        <div className="w-[560px] h-[560px] rounded-full bg-rose-600/8 blur-[130px]" />
-      </motion.div>
+        <div className="w-[560px] h-[560px] rounded-full bg-[radial-gradient(circle,rgba(244,63,94,0.12)_0%,transparent_70%)]" />
+      </div>
 
       <div
         className={`relative z-10 w-full max-w-5xl flex flex-col ${
@@ -105,10 +103,12 @@ export function MemoryCard({ memory, index }: { memory: Memory; index: number })
               <img
                 src={memory.imageUrl}
                 alt={memory.title}
-                loading="lazy"
+                loading={index < 2 ? "eager" : "lazy"}
+                decoding="async"
+                fetchPriority={index === 0 ? "high" : "auto"}
                 onLoad={() => setImageLoaded(true)}
                 onError={() => setImageError(true)}
-                className={`h-full w-full object-cover transition-all duration-700 ease-out group-hover:scale-105 ${
+                className={`h-full w-full object-cover transition-opacity duration-300 ease-out group-hover:scale-105 will-change-transform ${
                   imageLoaded ? "opacity-100" : "opacity-0"
                 }`}
               />

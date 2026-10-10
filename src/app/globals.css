@@ -36,14 +36,15 @@ p {
   @apply text-rose-200 leading-relaxed;
 }
 
-/* Button hover and transition consistency */
-button {
-  @apply transition-transform duration-300 ease-in-out;
+/* Performance optimization: offscreen sections render only when near viewport */
+section:not(:first-child) {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
 }
 
-button:hover {
-  @apply scale-105;
-  box-shadow: 0 0 35px 6px rgba(244, 63, 94, 0.45);
+/* Button default cursor */
+button {
+  cursor: pointer;
 }
 
 @keyframes pulse-slow {
