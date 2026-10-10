@@ -24,6 +24,7 @@ import { OurFuture } from "./OurFuture/OurFuture";
 import { ChooseYourGift } from "./ChooseYourGift/ChooseYourGift";
 import { HiddenMessage } from "./HiddenMessage/HiddenMessage";
 import { ClosingEnding } from "./Ending/ClosingEnding";
+import { HowMuchYouMean } from "./HowMuchYouMean";
 
 function createFloatingItems(countHearts: number, countParticles: number): FloatingItem[] {
   const items: FloatingItem[] = [];
@@ -89,6 +90,7 @@ export function BirthdayPage() {
       <FinalSurprise />
       <ConnectedToYou />
       <OneMoreThing />
+      <HowMuchYouMean />
       <ClosingEnding />
     </div>
   );

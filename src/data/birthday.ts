@@ -562,6 +562,70 @@ export const birthdayContent = {
     signature: "Yours always, Umair ❤️",
   },
 
+  howMuchYouMean: {
+    eyebrow: "What You Truly Mean To Me ✦",
+    heading:
+      "Miss, I Don't Think You'll Ever Realize How Much You Mean to Me. ❤️🥹",
+    subheading:
+      "Through my hardest days, my job struggles, and my silent tears — you became the one person who truly understands my heart.",
+    sections: [
+      {
+        id: 1,
+        title: "The One Who Saw My Tears 🌧️❤️",
+        tag: "01",
+        badge: "Through The Storm",
+        quote: "You understand me without making me feel like I'm being judged",
+        paragraphs: [
+          "Miss, I'm going through a really difficult phase in my job right now. I'm struggling so much, and sometimes I don't even know how to explain what I'm feeling. But the way you support me, understand me, and change my mood is something I never expected. Even on my most hectic days, you somehow bring a smile to my face. ❤️",
+          "There are so many moments when I feel exhausted, helpless, and alone. Sometimes I cry because of everything I'm facing, and you're the one who has actually seen those tears. You know how much I'm struggling, how much pressure I feel, and how difficult things can get for me. Sometimes, even my family doesn't fully understand what I'm going through, but somehow, you understand me without making me feel like I'm being judged.",
+          "Miss, sometimes I'm sitting in the office, looking at my life and thinking about how everything is going. I think about my struggles, my responsibilities, my future, and all the things I'm trying to manage. And then I realize that, in the middle of all this, I have someone who knows my worth, understands my situation, and believes in me even when I'm struggling to believe in myself. 🥹❤️",
+        ],
+      },
+      {
+        id: 2,
+        title: "A Beautiful Gift From Allah 🤲🏻✨",
+        tag: "02",
+        badge: "Your Precious Words",
+        quote:
+          "“Pagal,” “Zyada nahi bolo,” or “Over nahi ho zyada” literally stay in my mind 😭❤️",
+        paragraphs: [
+          "I genuinely feel like Allah has given me one of the most beautiful gifts of my life by bringing you into it. Miss, I'm proud of myself because I have you in my life. You might think you can be rude to me sometimes, but I know that you want me to stay close to you. When you tell me that you're sad with me or that something I've done has hurt you, I understand that your feelings matter too. You have every right to tell me when I make a mistake, and I have every reason to apologize and try to do better.",
+          "And Miss, those little things you say, like “Pagal,” “Zyada nahi bolo,” or “Over nahi ho zyada,” literally stay in my mind. 😭❤️ I don't know why, but even these little moments become special to me because they're part of you.",
+          "Sometimes, I'm just waiting for my shift to end so I can go home and tell you everything that happened during my day. Because I know you'll listen, you'll understand, and you'll try to motivate me. You have your own struggles, your own personal issues, and your own difficult days, but you still make space for my feelings. You never make me feel like my problems are just an everyday burden. Instead, you try to understand me and help me keep going.",
+        ],
+      },
+      {
+        id: 3,
+        title: "A Heart Split In Two & Resting On Your Shoulder 🫂💔",
+        tag: "03",
+        badge: "Deep Comfort",
+        quote:
+          "I genuinely wish I could rest my head on your shoulder and cry, without explaining anything",
+        paragraphs: [
+          "Miss, do you know what that means to me? You make me feel like I'm not alone in this world. Sometimes, I genuinely wish I could rest my head on your shoulder and cry, without explaining anything, just knowing that there's one person who understands what's happening inside me. 🥹🫂❤️",
+          "I know I might not always give you the same effort, care, or support that you give me. I know I have my shortcomings, and sometimes I wish I could do much more for you. But please believe me when I say that I'm trying. I'm trying to become better, to understand you better, and to give you the love and care you deserve. I'm sorry for the moments when I fall short. I may not always express myself properly, but that doesn't mean I don't care.",
+          "And Miss, when I leave school and have to go to the office, my heart genuinely feels split into two parts. One part of me has to move forward with my responsibilities, but the other part just wants to stay a little longer with you. I wish I could spend more time with you, talk to you a little more, and make a few more memories before going about the rest of my day. I miss you even before I've properly left. 😭❤️",
+        ],
+      },
+      {
+        id: 4,
+        title: "You Are One Of The Best Things in My Life 👑❤️",
+        tag: "04",
+        badge: "Eternal Gratitude",
+        quote: "Miss, you're one of the best things that has happened to me ❤️",
+        paragraphs: [
+          "I don't know how to thank you for everything you've done for me. I don't know how to explain how much your support, your words, your care, and your presence mean to me. All I know is that I'm genuinely grateful for you.",
+          "Miss, you're one of the best things that has happened to me. ❤️ You understand parts of me that I struggle to explain to anyone else. You motivate me when I'm tired, make me smile when I'm upset, and remind me of my worth when life makes me question it.",
+          "I miss you, Miss. I miss talking to you, sitting with you, sharing my thoughts with you, and simply being around you. I wish I could tell you all of this while sitting in front of you, holding your hands, and letting you understand what my heart has been trying to say.",
+          "Thank you for understanding me, for believing in me, and for being there during a phase of my life when things feel so difficult.",
+        ],
+      },
+    ],
+    closingDeclaration:
+      "I love you so, so much, Miss. I might not be able to give you everything you give me right now, but I promise I'm trying with all my heart. I'm grateful to have you in my life, and I hope I can become someone who makes you feel just as understood, supported, and valued as you make me feel. ❤️🥹🫶🏻",
+    signature: "Forever trying with all my heart, Umair ❤️",
+  },
+
   oneMoreThing: {
     eyebrow: "A Little Apology & A Promise ✦",
     heading: "One More Thing, Miss ❤️🥹",
